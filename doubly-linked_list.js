@@ -79,7 +79,7 @@ class DoublyLinkedList {
 
   // insert at specific index:
   insertIndex(value, index) {
-    if (index >= this.length) throw new Error('Insert index out of boubs!');
+    if (index >= this.length) throw new Error('Insert index out of bounds!');
 
     if (index === 0) return this.insertFirst(value);
 
@@ -138,6 +138,6 @@ instance.insertLast('9');
 
 instance.insertFirst('6');
 
-// instance.removeLast();
-// instance.removeFirst();
-instance.printDoublyLinkedList();
+instance.removeLast();
+instance.removeFirst();
+// instance.printDoublyLinkedList();
