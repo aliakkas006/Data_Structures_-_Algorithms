@@ -13,6 +13,8 @@ for (let i = 0; i < arr_2.length; i++) {
 
 // console.log(mergeArr);
 
+
+// add the boundary elements of the two dimensional array:
 const arr_2d = [
   [1, 2, 3],
   [4, 5, 6],
@@ -27,4 +29,4 @@ for (let i = 0; i < 3; i++) {
   }
 }
 
-console.log(sum);
+// console.log(sum);
