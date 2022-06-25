@@ -53,7 +53,7 @@ function infixToPostfix(str) {
   return result;
 }
 
-let exp = 'A*(B*C+D*E)+(F/G)';
+let exp = 'A+(B*C-(D/E)*G)*H';
 const result = infixToPostfix(exp);
 console.log(result);
 
